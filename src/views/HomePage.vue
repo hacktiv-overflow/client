@@ -1,5 +1,15 @@
 <template lang="html">
-  <h2>ini home</h2>
+  <div class="">
+    <div class="">
+      <h4>navbar here</h4>
+    </div>
+    <div >
+      <h4>margin here</h4>
+    </div>
+    <div class="">
+      <h4>content/router-view here</h4>
+    </div>
+  </div>
 </template>
 
 <script>
