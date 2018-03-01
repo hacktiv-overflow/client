@@ -1,10 +1,9 @@
 <template lang="html">
   <div class="">
-    <div class="">
-      <h4>navbar here</h4>
-    </div>
+    <Navbar/>
     <div >
       <h4>margin here</h4>
+      <h4>POST form and button here</h4>
     </div>
     <div class="">
       <h4>content/router-view here</h4>
@@ -13,7 +12,12 @@
 </template>
 
 <script>
+import Navbar from '@/components/Navbar'
 export default {
+  name: 'HomePage',
+  components: {
+    Navbar
+  }
 }
 </script>
 
