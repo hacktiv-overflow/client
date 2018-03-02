@@ -5,7 +5,7 @@
       <PostForm/>
     </div>
     <div class="">
-      <h4>content/router-view here</h4>
+      <router-view/>
     </div>
   </div>
 </template>
