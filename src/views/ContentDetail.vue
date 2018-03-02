@@ -44,19 +44,19 @@
       </table>
     </div>
     <!-- modal -->
-    <button type="button" name="button" data-toggle="modal" data-target="#showModal">CLICK</button>
+    <button type="button" name="button" data-toggle="modal" data-target="#showModal">Modal Demo</button>
     <div id="showModal" class="modal" style="margin-top:50%;">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title">Vote</h5>
+            <h5 class="modal-title">Give reputation</h5>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
           </div>
           <div class="modal-body" style="margin:auto;">
-            <button type="button" class="btn btn-primary">Save changes</button>
-            <button type="button" class="btn btn-secondary">Close</button>
+            <button type="button" class="btn btn-primary" style="float:left;">Good</button>
+            <button type="button" class="btn btn-secondary" style="float:right;">Bad</button>
           </div>
         </div>
       </div>
