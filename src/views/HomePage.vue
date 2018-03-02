@@ -2,8 +2,7 @@
   <div class="">
     <Navbar/>
     <div >
-      <h4>margin here</h4>
-      <h4>POST form and button here</h4>
+      <PostForm/>
     </div>
     <div class="">
       <h4>content/router-view here</h4>
@@ -13,10 +12,12 @@
 
 <script>
 import Navbar from '@/components/Navbar'
+import PostForm from '@/components/PostForm'
+
 export default {
   name: 'HomePage',
   components: {
-    Navbar
+    Navbar, PostForm
   }
 }
 </script>
